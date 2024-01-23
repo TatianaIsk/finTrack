@@ -1,5 +1,12 @@
+import IndexPageComponent from "components/pages/IndexPageComponent";
+import MainContainer from "components/ui/MainContainer";
+
 const IndexPage = () => {
-  return <div>index</div>;
+  return (
+    <MainContainer>
+      <IndexPageComponent />
+    </MainContainer>
+  );
 };
 
 export default IndexPage;
