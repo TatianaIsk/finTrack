@@ -16,7 +16,12 @@
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.insertSpaces": false,
-  "editor.codeActionsOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "never",
+    "source.sortImports": "never"
+  },
   "prettier.printWidth": 200,
   "vetur.grammar.customBlocks": {
     "docs": "md",
