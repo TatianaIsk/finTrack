@@ -1,15 +1,22 @@
-import Link from "next/link";
-
-import { SideBarLinks as data } from "./data";
+import LinksSideBar from "../LinksSideBar";
 
 import s from "./SideBarContent.module.scss";
 
 const SideBarContent = () => {
   return (
     <div className={s.container}>
-      {data.map((item) => (
-        <Link href={item.href}>{item.title}</Link>
-      ))}
+      <LinksSideBar icon="balance" href="/">
+        Balance
+      </LinksSideBar>
+      <LinksSideBar icon="grafics" href="/">
+        Graphics
+      </LinksSideBar>
+      <LinksSideBar icon="history" href="/">
+        Purchase history
+      </LinksSideBar>
+      <LinksSideBar icon="goals" href="/">
+        Goals
+      </LinksSideBar>
     </div>
   );
 };

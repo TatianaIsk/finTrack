@@ -1,0 +1,23 @@
+.icon {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &.balance {
+    background-image: url("./../../../assets/images/icons/sidebar/balance.png");
+  }
+
+  &.grafics {
+    background-image: url("./../../../assets/images/icons/sidebar/grafics.png");
+  }
+
+  &.history {
+    background-image: url("./../../../assets/images/icons/sidebar/history.png");
+  }
+
+  &.goals {
+    background-image: url("./../../../assets/images/icons/sidebar/goals.png");
+  }
+}

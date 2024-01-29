@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+	padding: 5px;
+	transition: 0.5s;
+
+  .link {
+    text-decoration: none;
+		margin-left: 13px;
+		font-size: 17px;
+		color: var(--main-color-white);
+  }
+
+	&:hover {
+		background-color: var(--dark-color-blue);
+		margin-right: -40px;
+		margin-left: 15px;
+		border-radius: 8px;
+		transition: 0.5s;
+	}
+}
