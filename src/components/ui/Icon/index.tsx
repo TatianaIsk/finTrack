@@ -1,8 +1,8 @@
-import clsx from 'clsx';
+import clsx from "clsx";
 
-import s from './Icon.module.scss';
+import s from "./Icon.module.scss";
 
-export type IconsVariants = 'balance' | 'grafics' | 'history' | 'goals';
+export type IconsVariants = "balance" | "grafics" | "history" | "goals" | "settings" | "fandq";
 
 interface IconProps {
   name: IconsVariants;

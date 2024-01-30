@@ -3,5 +3,12 @@
   margin: 5px 20px 0px 10px;
   display: flex;
   flex-direction: column;
-	padding-top: 10px;
+  padding-top: 10px;
+
+  .subtitle {
+    margin: 15px 0 0 0;
+    color: var(--main-color-grey);
+    font-weight: 700;
+    font-size: 14px;
+  }
 }
