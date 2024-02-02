@@ -1,9 +1,9 @@
 .container {
-  max-width: 20%;
+  width: 330px;
   height: 100vh;
   background: linear-gradient(180deg, var(--background-color-pink) 0%, var(--background-color-brown) 100%);
   border-radius: 25px;
-  padding: 25px 5px 0 15px;
+  padding: 15px 5px 0 15px;
 
   .image {
     width: 65px;

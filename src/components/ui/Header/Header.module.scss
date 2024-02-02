@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 13px 30px;
+	width: 1150px;
+	color: var(--main-color-brown);
+	border-bottom: var(--main-color-brown);
+
+	.icons {
+		display: flex;
+
+		.icon {
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+		}
+	}
+
+	.title {
+		font-size: 32px;
+	}
+}
+
