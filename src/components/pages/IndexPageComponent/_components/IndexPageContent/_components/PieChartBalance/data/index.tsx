@@ -3,13 +3,14 @@ type PieChartDataType = {
   value: number;
 };
 
+
 export const PieChartData: PieChartDataType[] = [
   {
-    name: "deposits",
+    name: "DEPOSITS",
     value: 821,
   },
   {
-    name: "wastes",
+    name: "WASTES",
     value: 56,
   },
 ];
