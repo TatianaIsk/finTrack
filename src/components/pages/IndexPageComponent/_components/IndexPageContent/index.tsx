@@ -1,7 +1,8 @@
 import Header from "components/ui/Header";
-import s from "./IndexPageContent.module.scss";
 import PieChartBalance from "./_components/PieChartBalance";
 import BarChartHistory from "./_components/BarChartHistory";
+
+import s from "./IndexPageContent.module.scss";
 
 const IndexPageContent = () => {
   return (

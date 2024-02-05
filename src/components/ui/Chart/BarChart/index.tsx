@@ -1,57 +1,26 @@
 import { sanFrancisco } from "assets/styles/fonts/fonts";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
-const data = [
-  {
-    name: "January",
-    deposits: 4000,
-    expenses: 2400,
-  },
-  {
-    name: "February",
-    deposits: 3000,
-    expenses: 1398,
-  },
-  {
-    name: "March",
-    deposits: 9800,
-    expenses: 2000,
-  },
-  {
-    name: "April",
-    deposits: 2780,
-    expenses: 3908,
-  },
-  {
-    name: "May",
-    deposits: 4800,
-    expenses: 1890,
-  },
-  {
-    name: "June",
-    deposits: 2390,
-    expenses: 3800,
-  },
-  {
-    name: "July",
-    deposits: 3490,
-    expenses: 4300,
-  },
-];
+import clsx from "clsx";
 
-const BarChartComponent = () => {
+interface BarChartComponentProps {
+	data: Object[];
+	className?: string;
+}
+
+const BarChartComponent: React.FC<BarChartComponentProps> = ({data, className}) => {
   return (
     <BarChart
       width={1060}
-      height={300}
+      height={295}
       data={data}
       margin={{
-        top: -20,
+        top: 0,
         right: 30,
         left: 20,
-        bottom: -15,
+        bottom: -20,
       }}
-      className={sanFrancisco.className}
+      className={clsx(sanFrancisco.className, className)}
     >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="name" />
