@@ -1,3 +1,10 @@
 .container {
-	display: flex;
+  .block {
+    display: flex;
+    flex-direction: row;
+  }
+
+	.secondBlock {
+		margin-top: -270px;
+	}
 }

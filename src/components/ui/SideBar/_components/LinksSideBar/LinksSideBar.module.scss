@@ -4,12 +4,14 @@
   margin-top: 15px;
 	padding: 5px;
 	transition: 0.5s;
+	cursor: pointer;
 
   .link {
     text-decoration: none;
 		margin-left: 17px;
 		font-size: 17px;
 		color: var(--main-color-white);
+		
   }
 
 	&:hover {

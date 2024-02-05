@@ -10,7 +10,7 @@ export const PieChartData: PieChartDataType[] = [
     value: 821,
   },
   {
-    name: "WASTES",
+    name: "EXPENSES",
     value: 56,
   },
 ];
