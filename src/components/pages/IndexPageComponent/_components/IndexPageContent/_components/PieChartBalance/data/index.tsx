@@ -6,7 +6,7 @@ type PieChartDataType = {
 
 export const PieChartData: PieChartDataType[] = [
   {
-    name: "DEPOSITS",
+    name: "INCOME",
     value: 821,
   },
   {

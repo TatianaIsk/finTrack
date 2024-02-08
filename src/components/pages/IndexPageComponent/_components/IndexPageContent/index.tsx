@@ -3,6 +3,7 @@ import PieChartBalance from "./_components/PieChartBalance";
 import BarChartHistory from "./_components/BarChartHistory";
 
 import s from "./IndexPageContent.module.scss";
+import CategoriesBlock from "./_components/CategoriesBlock";
 
 const IndexPageContent = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPageContent = () => {
       <div className={s.secondBlock}>
         <BarChartHistory />
       </div>
+      <CategoriesBlock/>
     </div>
   );
 };

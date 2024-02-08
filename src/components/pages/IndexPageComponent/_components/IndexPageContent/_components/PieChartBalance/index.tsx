@@ -12,7 +12,7 @@ const PieChartBalance = () => {
     <div className={s.container}>
       <h2 className={clsx(sanFrancisco.className, s.title)}>Balance statistics</h2>
       <PieChartComponent data={data}/>
-      <p className={clsx(proximaNova.className, s.subtitle)}>deposits and wastes</p>
+      <p className={clsx(proximaNova.className, s.subtitle)}>income and expenses</p>
     </div>
   );
 };

@@ -2,7 +2,19 @@ import clsx from "clsx";
 
 import s from "./Icon.module.scss";
 
-export type IconsVariants = "balance" | "grafics" | "history" | "goals" | "settings" | "fandq";
+export type IconsVariants =
+  | "balance"
+  | "grafics"
+  | "history"
+  | "goals"
+  | "settings"
+  | "fandq"
+  | "supermarket"
+  | "shoping"
+  | "restauran"
+  | "car"
+  | "beauty"
+  | "other";
 
 interface IconProps {
   name: IconsVariants;

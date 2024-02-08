@@ -28,7 +28,7 @@ const BarChartComponent: React.FC<BarChartComponentProps> = ({data, className}) 
       <YAxis yAxisId="right" orientation="right" stroke="var(--main-color-brown)" />
       <Tooltip />
       <Legend />
-      <Bar yAxisId="left" dataKey="deposits" fill="var(--dark-color-pink)" />
+      <Bar yAxisId="left" dataKey="income" fill="var(--dark-color-pink)" />
       <Bar yAxisId="right" dataKey="expenses" fill="var(--main-color-brown)" />
     </BarChart>
   );
